@@ -264,7 +264,7 @@ int main(int argc, const char * argv[]) {
     for(int i = 0; i < num_rows; i++)
         diff = y_sw[i] - y_hw[i];   
     
-    printf("tot difference: %d\n", diff);
+    printf("tot difference: %f\n", diff);
 
     // Print time
     printf("SPMV Time CPU: %.10lf\n", end_cpu - start_cpu);
