@@ -1,13 +1,13 @@
-## Introduction
+## GPU101 PiA Project
 <p align="justify">
-This repository contains all the programs that you have to use as a starting point for the GPU-101 Projects.
+This repository contains my implementation of an algorithm that speeds up the calculation of a Sparse Matrix-Vector Multiplication through parallelizing the process.
+It is implemented using C CUDA.
 </p>
 
 ## Usage
 
-### Compilation
-
-You only need GCC to compile the various programs, which you should already have installed if you did already setup your maching for CUDA.
+You only need NVCC to compile the source
+the various programs, which you should already have installed if you did already setup your maching for CUDA.
 To compile all the examples simply type
 ```
 make
